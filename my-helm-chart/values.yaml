@@ -2,6 +2,7 @@ serviceA:
   config:
     ENV: dev
     FEATURE_FLAG: "true"
+    HELLO: "world"
 
 serviceB:
   config:
