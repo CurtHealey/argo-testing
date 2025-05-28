@@ -1,0 +1,4 @@
+apiVersion: v2
+name: microservices-demo
+description: A demo Helm chart with two ConfigMaps
+version: 0.1.0
