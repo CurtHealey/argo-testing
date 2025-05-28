@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: service-argo-config
 data:
-  {{- range $key, $val := .Values.serviceA.config }}
+  {{- range $key, $val := .Values.serviceB.config }}
   {{ $key }}: {{ $val | quote }}
   {{- end }}
