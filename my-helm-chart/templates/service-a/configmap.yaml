@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: service-argo-config
+  name: service-argo-config-v2
 data:
   {{- range $key, $val := .Values.serviceA.config }}
   {{ $key }}: {{ $val | quote }}
