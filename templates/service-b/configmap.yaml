@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: service-b-config
+data:
+  {{- range $key, $val := .Values.serviceA.config }}
+  {{ $key }}: {{ $val | quote }}
+  {{- end }}

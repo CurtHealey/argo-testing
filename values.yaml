@@ -1,0 +1,9 @@
+serviceA:
+  config:
+    ENV: dev
+    FEATURE_FLAG: "true"
+
+serviceB:
+  config:
+    ENV: prod
+    TIMEOUT: "30s"
