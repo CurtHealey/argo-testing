@@ -12,6 +12,7 @@ spec:
     helm:
       valueFiles:
       - values.yaml
+      - values-extra.yaml
     path: my-helm-chart
     repoURL: https://github.com/CurtHealey/argo-testing
     targetRevision: HEAD
