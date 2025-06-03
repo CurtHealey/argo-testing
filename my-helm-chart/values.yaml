@@ -8,3 +8,4 @@ serviceB:
   config:
     ENV: prod
     TIMEOUT: "30s"
+    hello: "vince"
